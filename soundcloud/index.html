@@ -7,17 +7,19 @@
 <body>
   <div class="container">
     <header>
-      <h1>Really Awesome Music Site</h1>
+      <h1>FrankTunes</h1>
     </header>
+    <div id="nowPlaying">
+    </div>
     <section class="player">
-      <audio class="music-player" controls="controls" src=""></audio>
+      <audio id="music-player" controls="controls" src=""></audio>
     </section>
     <section class="search">
       <label for="musicSearchBar">Search for your favorite music</label>
       <input type="text" name="musicSearchBar" id="musicSearchBar">
-      <button type="submit" value="submit" id="submitButton">Submit</button>
+      <button type="submit" value="submit" id="submitButton">Search</button>
     </section>
-    <section class="results"></section>
+    <section id="results"></section>
   </div>
   <script src="main.js"></script>
 </body>

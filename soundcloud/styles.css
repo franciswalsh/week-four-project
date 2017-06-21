@@ -1,3 +1,70 @@
 body {
   background-color: #60d9f1;
+  font-family: sans-serif;
+}
+.container {
+  margin: 5%;
+}
+header {
+  text-align: center;
+}
+#nowPlaying {
+  text-align: center;
+  margin-bottom: 2%;
+}
+.player {
+  display: flex;
+  justify-content: center;
+}
+.player audio {
+  width: 50%;
+  color: red;
+}
+.search {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.search label{
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: 2%;
+  text-align: center;
+}
+#musicSearchBar {
+  width: 50%;
+  height: 2em;
+  margin-right: 25%;
+  margin-left: 25%;
+  margin-bottom: 1%;
+  font-size: 1.5em;
+}
+#submitButton {
+  width: 50%;
+  height: 2em;
+  margin-right: 25%;
+  margin-left: 25%;
+}
+#results {
+  display: flex;
+  flex-wrap: wrap;
+}
+.songDivider {
+  width: 22%;
+  margin: 1%;
+  border-style: solid;
+  border-radius: 5%;
+  border-color: black;
+}
+.songDivider p {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.songDivider img {
+  width: 95%;
+  margin: 2.5%;
+  text-align: center;
+  border-radius: 5%;
 }
