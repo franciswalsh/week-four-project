@@ -57,6 +57,7 @@ header {
   border-style: solid;
   border-radius: 5%;
   border-color: black;
+  background-color: lightgrey;
 }
 .songDivider p {
   margin-left: 2.5%;
